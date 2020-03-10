@@ -1,0 +1,7 @@
+hr {
+    position: relative;
+    margin: 2rem auto;
+    width: calc(-4px + 100%);
+    border: 2px dashed #a4d8fa;
+    background: #fff;
+}

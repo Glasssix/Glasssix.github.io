@@ -1,0 +1,19 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title></title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="C#">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</head>
+	<frameset id="upFrame" name="upFrame" rows="113,*" cols="*" frameborder="NO" border="0" framespacing="0">
+		<frame name="topFrame" src="1_files/topbanner.html" scrolling="no" noresize="noresize" target="contents">
+		<frameset id="centerFrame" name="centerFrame" cols="130,10,*" framespacing="1">
+			<frame name="MenuFrame" src="1_files/leftmenu1.html" scrolling="no" noresize="noresize">
+			<frame name="pushRLFrame" src="1_files/pushRL.html" scrolling="no" noresize="noresize">
+			<frame name="PageFrame" src="loging.aspx">
+		</frameset>
+	</frameset>
+
+</html>
