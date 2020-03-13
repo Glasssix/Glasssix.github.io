@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6eff18;
+  background: #ff377d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2920,6 +2920,7 @@ hr {
 }
 .menu .menu-item a {
   font-size: 1rem;
+  padding: 6px 10px;
 }
 .site-meta .site-title {
   font-size: 1.7rem;
@@ -2939,6 +2940,7 @@ hr {
 }
 svg {
   width: 75px;
+  right: 7px;
 }
 body {
   background: url("/images/background/57.jpg");
