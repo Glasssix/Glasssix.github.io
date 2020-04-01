@@ -1,0 +1,100 @@
+
+.para-list {
+    margin-left:450px;  
+    margin-right: 450px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+   
+}
+.title-block {
+    font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    color: rgb(79, 11, 17);
+    
+    font-size: 1.8rem;
+}
+h2 {
+    text-decoration: none;
+    //color: dimgrey;
+    position: relative;
+    //font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    color: #00337d;
+    font-size:17px;
+}
+h5 {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.text-describe {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    font-size: 0.9rem;
+    font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    width:840px;
+    
+}
+
+
+
+.para-list.a:hover {
+    color: #a4d8fa;
+}
+.link-title {
+    top: 0px;
+    left: 0px;
+    font-size: 1rem;
+    position: relative;
+    color: rgba(217, 83, 79, 1);
+}
+    .link-title :hover {
+        color: black;
+        text-decoration: none;
+    }
+a {
+    color :#00337d;
+        
+    text-decoration: none;
+}
+
+
+
+.imgcss img {
+    position: relative; 
+    left: 280px;
+    top: -180px;
+    padding: 20px 20px 20px 20px;
+   // margin-bottom: 35px;
+    height: 160px;
+}
+.post-eof {
+    text-align: center;
+}
+
+.post-footer {
+    position:relative;
+    top:790px;
+    margin-top: 20px;
+    background-color: #fbfbfb;
+    color: #757575;
+    font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+} 
+
+.describee {
+    
+    font-size: 27px;
+    margin-left: 280px;
+    position: relative;
+    top: -320px;
+}
+.body {
+    margin-bottom:20px;
+}
+
+
+.menu .menu-item a {
+    padding: 0 10px;
+    color: black;
+    text-decoration: none;
+}

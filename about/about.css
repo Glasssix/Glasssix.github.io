@@ -17,6 +17,13 @@ h2 {
     color: #00337d;
     font-weight: 100;
 }
+h4 {
+    text-decoration: none;
+    position: relative;
+    font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+    color:GRAY;
+    font-weight: 100;
+}
 
 h5 {
     text-decoration: none;
