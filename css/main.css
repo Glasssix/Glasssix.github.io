@@ -2942,13 +2942,13 @@ svg {
   width: 75px;
   right: 7px;
 }
-body {
-  /* background: url("/images/background/57.jpg");
+/* body {
+  background: url("/images/background/57.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 100% -30%; */
+  background-position: 100% -30%;
   font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif !important;
-}
+} */
 body .main {
   margin-bottom: 45px;
 }
