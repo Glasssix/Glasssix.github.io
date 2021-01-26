@@ -1,1273 +1,138 @@
-<!DOCTYPE html>
+ 
 
-
-
-  
-
-
-<html class="theme-next mist use-motion" lang="en">
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<link rel="stylesheet" class="text/css" href="share.css"><script src="share.js" class="text/javascript" language="javascript"></script>
+<style type="text/css" >
+.geo-style2{font-family: Palatino Linotype,Helvetica Neue,Helvetica,Arial,sans-serif !important;}
+.geo-style1{font: 1em Georgia, serif;}
+.ux-style2{font: Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
+</style>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0"></head>
+<body> 
+<img src="/images/background/55.jpg"  height=0.01px width=0.01%> 
 
+<div class="para-list">
 
 
 
+<div class="imgcss"><img src="/images/background/83.jpg"  height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Least Squares Method.pdf" ><div class="geo-style2"><h2 >Least Squares Method: A Brief Introduction </h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> July 26,2019<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:inlmouse@glasssix.com"> Accelouch</a></b><br/>
 
+<b>Abstract</b>:  In many science and engineering disciplines, 
+such as physics, chemistry, statistics, economics, biology, 
+signal processing, automatic control, systems theory, 
+medicine and military engineering, many problems can be
+mathematically modeled as the matrix equation Ax = b.</div>
 
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="Hexo, NexT" />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]&#x3D;r;i[r]&#x3D;i[r]||function(){       (i[r].q&#x3D;i[r].q||[]).push(a">
-<meta property="og:type" content="website">
-<meta property="og:title" content="GlasssixResearch">
-<meta property="og:url" content="https://glasssix.github.io/categories/index.html">
-<meta property="og:site_name" content="GlasssixResearch">
-<meta property="og:description" content="(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]&#x3D;r;i[r]&#x3D;i[r]||function(){       (i[r].q&#x3D;i[r].q||[]).push(a">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/tobe.jpg">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/accv2018.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/eccv2018.jpg">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/tobe.jpg">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/dfw.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/ntire.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/icmi.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/iccv.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/eccv2016.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/cvprw16.png">
-<meta property="og:image" content="https://glasssix.github.io/categories/papers/face_det.png">
-<meta property="article:published_time" content="2020-03-09T08:59:05.771Z">
-<meta property="article:modified_time" content="2020-03-09T08:59:05.769Z">
-<meta property="article:author" content="GlasssixResearch">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://glasssix.github.io/categories/papers/tobe.jpg">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Mist',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: 'Author'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="https://glasssix.github.io/categories/"/>
-
-
-
-
-
-  <title> | GlasssixResearch</title>
-  
-
-
-
-
-
-
-
-
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left page-post-detail">
-   
-
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">GlasssixResearch</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <p class="site-subtitle"></p>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
+</div>
 </div>
 
-<nav class="site-nav">
-  
+<div class="imgcss"><img src="/images/background/59.jpg" height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/cascade classifier.pdf" ><div class="geo-style2"><h2 >Cascade classifier face detection process</h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> September 30,2018<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:zyf@glasssix.com"> YiFu Zhang</a></b><br/>
 
-  
-    <ul id="menu" class="menu">
-      
-        
-        <li class="menu-item menu-item-home">
-          <a href="/" rel="section">
-            
-            Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-technology-share">
-          <a href="/share/" rel="section">
-            
-            Technology Share
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-membership">
-          <a href="/categories/" rel="section">
-            
-            Membership
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-download">
-          <a href="/download/" rel="section">
-            
-            Download
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about-us">
-          <a href="/about/" rel="section">
-            
-            About Us
-          </a>
-        </li>
-      
+<b>Abstract</b>: To improve the speed and accuracy of face detection,
+the final classifier needs to be obtained by
+cascade of several strong classifiers.This paper 
+will introduce the training process of cascade classifier in detail.</div>
 
-<!--       
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-            Search
-          </a>
-        </li> -->
-      
-    </ul>
-  
+</div></div>
+<div class="imgcss"><img src="/images/background/Image Coding.jpg" height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Image Compression.pdf" ><div class="geo-style2"><h2 >Image Compression Coding</h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> August 31,2018<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:zj@glasssix.com"> Ji Zhang</a></b><br/>
 
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="Searching..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
+<b>Abstract</b>: With the establishment of wavelet transform theory, 
+fractal theory, artificial neural network theory and visual simulation theory, 
+image compression technology has achieved unprecedented development.
+Some relevant algorithms are studied and interpreted in this paper.</div>
+
+</div></div>
+
+<div class="imgcss"><img src="/images/background/timg2.jpg"  height=160px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Sparse Representation of The Signal.pdf" ><div class="geo-style2"><h2 >Sparse Representation of The Signal </h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> March 13,2020<br/>  
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:inlmouse@glasssix.com"> Accelouch</a></b><br/>
+
+<b>Abstract</b>:   Sparse representation of the signal is to use as few atoms as
+possible to represent a signal in a given super-complete dictionary,
+and a more concise representation of the signal can be obtained,
+which makes it easier for us to obtain the information contained in the signal,
+which is more convenient and further Signal processing, 
+such as compression, encoding, etc.</div>  
+
+</div>
+</div>
+<div class="imgcss"><img src="/images/background/233.jpg" height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Glasssix AntiSpoofing.pdf" ><div class="geo-style2"><h2 >AntiSpoofing</h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> July 05,2019<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:zj@glasssix.com"> Ji Zhang</a></b><br/>
+
+<b>Abstract</b>: To use facial recognition safely,
+you need facial AntiSpoofing technology to detect 
+spoofing attacks before performing the recognition.</div>
+
+
+
+</div></div>
+
+<div class="imgcss"><img src="/images/background/Decoupled.jpg" height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Decoupled Networks Presentation.pdf" ><div class="geo-style2"><h2 >Decoupled Networks Presentation</h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> July 05,2019<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:bkk@glasssix.com"> KaiKai Bian</a></b><br/>
+
+<b>Abstract</b>: Convolutional neural networks have pushed the boundaries on a wide variety of vision tasks,
+A significant portion of recent studies on CNNs focused on increasing network depth and representation ability.
+Haing a good understanding how convolution naturally leads to discriminative
+representation and good generalization remains an interesting problem.</div>
 </div>
 
 
-
-    </div>
-  
-</nav>
-
-
-
- </div>
-    </header>
-<a href="https://github.com/Glasssix" class="github-corner" target="_blank" title="Follow me on GitHub" aria-label="Follow me on GitHub">
-      <svg width="60" height="60" viewBox="0 0 250 250" style="fill:#222; color:#fff; position: fixed; top: 0; border: 0; right: -7px;" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path>
-      </svg>
-</a>
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
-    
-    
-    
-    <div class="post-block page">
-      <header class="post-header">
-
-	<h1 class="post-title" itemprop="name headline"></h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
-        
-        
-           
-<!DOCTYPE html><html><head>
-<!--    <meta http-equiv="refresh" content="0;url=http://graduatestudents.ucmerced.edu/wlai24/" /> -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="kpzhang93.github.io : ">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="kpzhang">
-    <link href="./src/main.css" rel="stylesheet">
-    <link href="./src/bootstrap.min.css" rel="stylesheet">
-    <link href="./src/bootstrap-theme.min.css" rel="stylesheet">
- 
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
- 
-
-    <link href="./src/bootstrap-navbar-custom.css" rel="stylesheet">
-    <link href="./src/scrolling-nav.css" rel="stylesheet">
-    <link href="./src/mfp.css" rel="stylesheet">
-
-    <link href="./src/ntu.jpg" rel="shortcut icon">
-    
-    <script src="//www.google-analytics.com/analytics.js" async=""></script><script src="./src/analytics.js" async=""></script><script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-45156688-2', 'auto');
-      ga('send', 'pageview');
-    </script>
-
-    <title>Kaipeng Zhang</title>
-  <meta name="generator" content="Hexo 4.2.0"></head>
-
-  <body id="page-top" data-target=".navbar-fixed-top" data-spy="scroll">
-<script src="https://buttons.github.io/buttons.js" defer="" async=""></script>
-    <!-- HEADER -->
-      
-
-    <section class="publication-section" id="publication">
-      <div class="container">
-        <h2>Publications (2 ECCV, 1 ICCV, 3 CVPRW, 1 ACCV, 2 ICMI, 1 SPL)</h2>
-        <hr>
-		      <div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./background/wang.jpg">
-              <img class="img-thumbnail img-responsive" src="./background/wang.jpg">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">	A Comprehensive Study on Center Loss for Deep Face Recognition</div>
-            <div class="author">Ziyan Wang, <b>CQUPT</b>1111</div> 
-
-			(*equal contribution)
-            <div class="conf">International Journal of Computer Vision （IJCV）</div> 
-            <div class="tag"> 
-              <span class="label label-primary">Journal</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i>Paper
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/accv2018.png">
-              <img class="img-thumbnail img-responsive" src="./papers/accv2018.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">	Pose Invariant Virtual Try-On Shoe with Conditional Image Completion</div>
-            <div class="author">Chao-Te Chou, Cheng-Han Lee, <b>Kaipeng Zhang</b>, Hu Cheng Lee and Winston Hsu</div>
-            <div class="conf">Asian Conference on Computer Vision (ACCV) 2018</div> 
-            <div class="tag"> 
-              <span class="label label-success">Conference</span> <span class="label label-success">Oral</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i>Paper
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/eccv2018.jpg">
-              <img class="img-thumbnail img-responsive" src="./papers/eccv2018.jpg">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">	Super-Identity Convolutional Neural Network for Face Hallucination</div>
-            <div class="author"><b>Kaipeng Zhang</b>, Zhanpeng Zhang, Chia-Wen Cheng, Winston Hsu, Yu Qiao, Wei Liu and Tong Zhang</div>
-            <div class="conf">European Conference on Computer Vision (ECCV) 2018</div> 
-            <div class="tag"> 
-              <span class="label label-success">Conference</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i>Paper
-          </div>
-        </div>   
-        <br>
-        <br>
-				
-		<div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/tobe.jpg">
-              <img class="img-thumbnail img-responsive" src="./papers/tobe.jpg">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Cascade Attention Networks For Group Emotion Recognition with Face, Body and Image Cues</div>
-            <div class="author">Kai Wang, Xiaoxing Zeng, Jianfei Yang, Debin Meng, <b>Kaipeng Zhang</b>, Xiaojiang Peng and Yu Qiao</div>
-            <div class="conf">ACM International Conference on Multimodal Interaction (ICMI) 2018 - Grand Challenge</div> 
-            <div class="tag"> 
-              <span class="label label-warning">Grand Challenge</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i>Paper
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/dfw.png">
-              <img class="img-thumbnail img-responsive" src="./papers/dfw.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Deep Disguised Faces Recognition</div>
-            <div class="author"><b>Kaipeng Zhang</b>, Ya-Liang Chang and Winston Hsu</div>
-            <div class="conf">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018 - Disguised Faces in the Wild Workshop</div>
-            <div class="tag">
-              <span class="label label-warning">Workshop</span>
-            </div>
-                <div><i class="fa fa-book fa-fw"></i><a href="http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w1/Zhang_Deep_Disguised_Faces_CVPR_2018_paper.pdf" target="blank">Paper</a></div>
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/ntire.png">
-              <img class="img-thumbnail img-responsive" src="./papers/ntire.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Attribute Augmented Convolutional Neural Network for Face Hallucination</div>
-            <div class="author">Cheng-Han Lee, <b>Kaipeng Zhang</b>, Hu-Cheng Lee, Chia-Wen Cheng, Winston Hsu</div>
-            <div class="conf">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2018 - New Trends in Image Restoration and Enhancement Workshop</div>
-            <div class="tag">
-              <span class="label label-warning">Workshop</span>
-            </div>
-                <div><i class="fa fa-book fa-fw"></i><a href="http://openaccess.thecvf.com/content_cvpr_2018_workshops/papers/w1/Zhang_Deep_Disguised_Faces_CVPR_2018_paper.pdf" target="blank">Paper</a></div>
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/icmi.png">
-              <img class="img-thumbnail img-responsive" src="./papers/icmi.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Group Emotion Recognition with Individual Facial Emotion CNNs and Global Image Based CNNs</div>
-            <div class="author">Lianzhi Tan, <b>Kaipeng Zhang</b>, Kai Wang, Xiaoxing Zeng, Xiaojiang Peng and Yu Qiao</div>
-            <div class="conf">ACM International Conference on Multimodal Interaction (ICMI) 2017 - Grand Challenge</div> 
-            <div class="tag"> 
-              <span class="label label-warning">Grand Challenge</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i><a href="papers/icmi.pdf" target="blank">Paper</a>
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		
-		
-        <div class="spacer"></div>
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/iccv.png">
-              <img class="img-thumbnail img-responsive" src="./papers/iccv.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Detecting Faces Using Inside Cascaded Contextual CNN</div>
-            <div class="author"><b>Kaipeng Zhang</b>, Zhanpeng Zhang, Hao Wang, Zhifeng Li, Yu Qiao and Wei Liu</div>
-            <div class="conf">IEEE International Conference on Computer Vision (ICCV) 2017</div> 
-            <div class="tag"> 
-              <span class="label label-success">Conference</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i><a href="./papers/iccv.pdf" target="blank">Paper</a>
-          </div>
-        </div>   
-        <br>
-        <br>
-		
-		<div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/eccv2016.png">
-              <img class="img-thumbnail img-responsive" src="./papers/eccv2016.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">A Discriminative Deep Feature Learning Approach for Face Recognition</div>
-            <div class="author">Yandong Wen, <b>Kaipeng Zhang</b>, Zhifeng Li and Yu Qiao</div>
-            <div class="conf">European Conference on Computer Vision (ECCV) 2016</div> 
-            <div class="tag"> 
-              <span class="label label-success">Conference</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i><a href="./papers/eccv2016.pdf" target="blank">Paper</a>
-            <i class="fa fa fa-file-text fa-fw"></i><a href="https://github.com/ydwen/caffe-face" target="blank">Code&amp; Model</a>
-			<iframe src="https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fydwen%2Fcaffe-face&amp;aria-label=Star%20kpzhang93%2Fcaffe-windows%20on%20GitHub&amp;data-icon=octicon-star&amp;data-text=Star&amp;data-show-count=true" frameborder="0" scrolling="no" style="width: 90px; height: 20px; border: none;" allowtransparency="true"></iframe>
-			<iframe src="https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fydwen%2Fcaffe-face/fork&amp;aria-label=Fork%20ydwen%2Fcaffe-face%20on%20GitHub&amp;data-icon=octicon-repo-forked&amp;data-text=Fork&amp;data-show-count=true" frameborder="0" scrolling="no" style="width: 90px; height: 20px; border: none;" allowtransparency="true"></iframe>
-          </div>
-        </div>   
-        <br>
-        <br>
-	
-		
-        <div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/cvprw16.png">
-              <img class="img-thumbnail img-responsive" src="./papers/cvprw16.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Gender and Smile Classification using Deep Convolutional Neural Networks</div>
-            <div class="author"><b>Kaipeng Zhang</b>, Lianzhi Tan, Zhifeng Li and Yu Qiao</div>
-            <div class="conf">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2016 - ChaLearn Looking at People Workshop</div>
-            <div class="tag">
-              <span class="label label-warning">Workshop</span>
-            </div>
-                <div><i class="fa fa-book fa-fw"></i><a href="http://www.cv-foundation.org//openaccess/content_cvpr_2016_workshops/w18/papers/Zhang_Gender_and_Smile_CVPR_2016_paper.pdf" target="blank">Paper</a></div>
-          </div>
-        </div>   
-        <br>
-        <br>
-		<div class="row item">
-          <div class="col-md-4 col-sm-6 col-xs-12 item-img">
-            <a class="image-popup-no-margins" href="./papers/face_det.png">
-              <img class="img-thumbnail img-responsive" src="./papers/face_det.png">
-            </a>
-          </div>
-          <div class="col-md-8 col-sm-6 col-xs-12 item-info">
-            <div class="paper">Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Neural Networks</div>
-            <div class="author"><b>Kaipeng Zhang</b>, Zhanpeng Zhang, Zhifeng Li and Yu Qiao</div>
-            <div class="conf">IEEE Signal Processing Letters, 23(10), 2016</div> 
-			<span style="color:#FF0000;font-weight:bold;">The most cited paper published in IEEE SPL 2016.</span>
-           
-            <div class="tag"> 
-              <span class="label label-primary">Journal</span>
-            </div> 
-			<i class="fa fa-book fa-fw"></i><a href="papers/spl.pdf" target="blank">Paper</a>
-            <i class="fa fa fa-file-text fa-fw"></i><a href="https://github.com/kpzhang93/MTCNN_face_detection_alignment" target="blank">Code&amp; Model</a>
-
-<iframe src="https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fkpzhang93%2FMTCNN_face_detection_alignment&amp;aria-label=Star%20kpzhang93%2Fcaffe-windows%20on%20GitHub&amp;data-icon=octicon-star&amp;data-text=Star&amp;data-show-count=true" frameborder="0" scrolling="no" style="width: 90px; height: 20px; border: none;" allowtransparency="true"></iframe>
-<iframe src="https://buttons.github.io/buttons.html#href=https%3A%2F%2Fgithub.com%2Fkpzhang93%2FMTCNN_face_detection_alignment/fork&amp;aria-label=Fork%20kpzhang93%2FMTCNN_face_detection_alignment%20on%20GitHub&amp;data-icon=octicon-repo-forked&amp;data-text=Fork&amp;data-show-count=true" frameborder="0" scrolling="no" style="width: 90px; height: 20px; border: none;" allowtransparency="true"></iframe>
-          </div>
-        </div>   
-        <br>
-        <br>
-      </div> <!-- end of Publication -->
-
-    </section>
-
-   
-
-	
-    <script src="./src/jquery-1.11.0.js" type="text/javascript"></script>
-    <script src="./src/bootstrap.min.js"></script>
-    <!--
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    -->
-    <!-- Scrolling Nav JavaScript -->
-    <script src="./src/jquery.easing.min.js"></script>
-    <script src="./src/scrolling-nav.js"></script>
-    <script src="./src/mfp.js"></script>
-    <script src="./src/main.js" type="text/javascript"></script>
-    
-  
-
-</div></body></html>
-
-
-        
-      </div>
-      
-      
-      
-    </div>
-    
-    
-    
-  </div>
-
-
-          </div>
-          
-
-
-          
-
-  
-
-
-
-        </div>
-        
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Overview
-          </li>
-        </ul>
-      
-
-      <section class="site-overview-wrap sidebar-panel">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="/images/1.gif"
-                alt="GlasssixResearch" />
-            
-              <p class="site-author-name" itemprop="name">GlasssixResearch</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives">
-              
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">posts</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-
-          </nav>
-
-          
-
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/Glasssix" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:inlmouse@glasssix.com" target="_blank" title="E-Mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
-                  </span>
-                
-            </div>
-          
-
-          
-          
-
-          
-          
-
-          
-
-        </div>
-      </section>
-
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#publication"><span class="nav-number">1.</span> <span class="nav-text">Publications (2 ECCV, 1 ICCV, 3 CVPRW, 1 ACCV, 2 ICMI, 1 SPL)</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
-      
-
-      
-
-    </div>
-  </aside>
-
-
-        
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        
-
-<div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
- 
-
-
-  <span class="author" itemprop="copyrightHolder">GlasssixResearch</span>
-
-<div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  Number of visitors:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div> 
-  
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-      <span class="post-meta-item-text">Site words total count&#58;</span>
-    
-    <span title="Site words total count">650</span>
-  
 </div>
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="imgcss"><img src="/images/background/Gassian.png" height=200px width=330px position=100px>
+<div class="link-title"><a href="/download/pdf/Gaussian Filter.pdf" ><div class="geo-style2"><h2 >Gaussian Filter</h2></div></a></div>
+<div class="text-describe">
+<b>Date:</b> November 16,2018<br/>
+<div class="geo-style2"><b>Glasssix Research:<a href="mailto:zj@glasssix.com"> Ji Zhang</a></b><br/>
 
+<b>Abstract</b>:Gaussian filter is a linear smoothing filter, suitable for
+eliminating gaussian noise, 
+widely used in image processing noise reduction process. Generally speaking,
+gaussian filtering is the process of weighted average of the whole image.
+The value of each pixel is
+ obtained by the weighted average of itself and other pixel values in the neighborhood.</div>
 
+</div></div>
 
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
+</div>
+</body>
+</div>
+ <footer class="post-footer">
+  
+       
+		<div class="post-eof">Copyright   <span id="year">2020</span> 
+		<a href="https://github.com/Glasssix" target="_blank">GlasssixResearch</a>
+		
+		
+		&nbsp;<i class="fas fa-chart-area"></i>
+	 <span id="busuanzi_container_site_uv" style="display: inline;">
+		<br><span id="sitetime">Site has been runnig for 14 d 17 h 7 m 27 s
+		</span><script>function siteTime()
+		{var e=1e3,t=60*e,n=60*t,o=24*n,r=365*o,a=new Date,i="2020",l="2",m="14",M="0",g="0",d="0",s=a.getFullYear(),u=a.getMonth()+1,T=a.getDate(),c=a.getHours(),f=a.getMinutes(),h=a.getSeconds(),y=Date.UTC(i,l,m,M,g,d),H=Date.UTC(s,u,T,c,f,h),I=H-y,B=Math.floor(I/r),D=Math.floor(I/o-365*B),E=Math.floor((I-(365*B+D)*o)/n),L=Math.floor((I-(365*B+D)*o-E*n)/t),v=Math.floor((I-(365*B+D)*o-E*n-L*t)/e);i==s?(document.getElementById("year").innerHTML=s,document.getElementById("sitetime").innerHTML="Site Runnig for : "+D+" D "+E+" H "+L+" M "+v+" S"):(document.getElementById("year").innerHTML=i+" - "+s,document.getElementById("sitetime").innerHTML="本站已安全运行 "+B+" 年 "+D+" 天 "+E+" 小时 "+L+" 分钟 "+v+" 秒")}setInterval(siteTime,1e3)</script><br><div class="pure"><script src="https://pv.sohu.com/cityjson?ie=utf-8"></script><script>var getOSAndBrowser=function(){var e=navigator.platform,n=navigator.userAgent,i="",d="";i+=-1<e.indexOf("Win")?-1<n.indexOf("Windows NT 5.0")?"Win2000":-1<n.indexOf("Windows NT 5.1")?"WinXP":-1<n.indexOf("Windows NT 5.2")?"Win2003":-1<n.indexOf("Windows NT 6.0")?"WindowsVista":-1<n.indexOf("Windows NT 6.1")||-1<n.indexOf("Windows 7")?"Win7":-1<n.indexOf("Windows NT 6.2")||-1<n.indexOf("Windows 8")?"Win8":-1<n.indexOf("Windows NT 6.3")||-1<n.indexOf("Windows 8.1")?"Win8.1":-1<n.indexOf("Windows NT 10.0")||-1<n.indexOf("Windows 10")?"Win10":"Other":-1<e.indexOf("Mac")?"Mac":-1<e.indexOf("X11")?"Unix":-1<e.indexOf("Linux")?"Linux":"Other",i+="/";var r=-1<n.indexOf("Opera"),o=-1<n.indexOf("compatible")&&-1<n.indexOf("MSIE")&&!r,t=-1<n.toLowerCase().indexOf("edge")&&!o,s=-1<n.toLowerCase().indexOf("trident")&&-1<n.indexOf("rv");if(/[Ff]irefox(\/\d+\.\d+)/.test(n))i+=(d=/([Ff]irefox)\/(\d+\.\d+)/.exec(n))[1]+d[2];else if(o){new RegExp("MSIE (\\d+\\.\\d+);").test(n);var x=parseFloat(RegExp.$1);i+=7==x?"IE7":8==x?"IE8":9==x?"IE9":10==x?"IE10":"0"}else i+=t?"Edge":s?"IE11":/[Cc]hrome\/\d+/.test(n)?(d=/([Cc]hrome)\/(\d+)/.exec(n))[1]+d[2]:/[Vv]ersion\/\d+\.\d+\.\d+(\.\d)* *[Ss]afari/.test(n)?(d=/[Vv]ersion\/(\d+\.\d+\.\d+)(\.\d)* *([Ss]afari)/.exec(n))[3]+d[1]:/[Oo]pera.+[Vv]ersion\/\d+\.\d+/.test(n)?(d=/([Oo]pera).+[Vv]ersion\/(\d+)\.\d+/.exec(n))[1]+d[2]:"unknown";return i};
+		</div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-<!-- 图片轮播js文件cdn -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-
-<!-- 自定义的js文件 -->
-<script type="text/javascript" src="/js/src/custom.js"></script>
-
-
-</body>
 </html>
+
+<p>&lt;!–&gt; Number of visitors:  count: 2.6k ;&amp;nbsp|  Site words total: ©</p>
